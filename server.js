@@ -8,7 +8,7 @@ app.use(express.json())
 app.get("/", (req,res) =>{
     res.json({
         status: true,
-        message: "Api Running"
+        message: "Api Running..."
     })
 })
 
